@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: degular,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1B145A;
+    z-index: 1;
+}
+
+#frame {
+    position: absolute;
+    width: 30%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#logo {
+    position: absolute;
+    width: 13%;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#text {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #B3CFF7;
+    font-family: degular-display,sans-serif;
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 2.9vw;
+    z-index: 3;
+}
+
+#star1 {
+    position: absolute;
+    width: 10%;
+    top: 3%;
+    right: 2%;
+    z-index: 2;
+}
+
+#star2 {
+    position: absolute;
+    width: 7.3%;
+    top: 37.2%;
+    left: 27%;
+    z-index: 2;
+}
+
+#star3 {
+    position: absolute;
+    width: 3%;
+    bottom: 39%;
+    right: 25%;
+    z-index: 2;
+}
+
+#ellipse{
+    position: absolute;
+    width: 11%;
+    left:33%;
+    bottom: 2%;
+    z-index: 2;
+}
+
+#rect1{
+    width: 27%;
+    height: 5vw;
+    background-color: #D65D55;
+    position: absolute;
+    left: 38%;
+    bottom: 12%;
+    z-index: 3;
+}
+
+#rect2{
+    width: 25.4%;
+    height: 5vw;
+    background-color: #ED975D;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.3vw;
+    position: absolute;
+    left:39%;
+    bottom: 15%;
+    z-index: 4;
+    transform: rotate(-2deg);
+}
